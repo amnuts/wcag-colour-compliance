@@ -93,7 +93,7 @@ class WCAG
      * @param  string|array bg
      * @return {*}
      */
-    compatibility(fg, bg) {
+    accessibility(fg, bg) {
         let ratio = this.contrastRatio(fg, bg);
         return {
             ratio,

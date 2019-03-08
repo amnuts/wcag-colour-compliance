@@ -107,7 +107,7 @@ class WCAG
      * @return array
      * @throws \InvalidArgumentException
      */
-    public static function wcag($fg, $bg)
+    public static function accessibility($fg, $bg)
     {
         $ratio = static::contrastRatio($fg, $bg);
         return [
